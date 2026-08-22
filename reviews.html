@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reviews &mdash; Barbara Barbara</title>
+<meta name="description" content="What people are saying about Barbara Barbara on Yelp and Google.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html">Barbara <span>Barbara</span></a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="visit.html">Visit Us</a>
+      <a href="reviews.html" aria-current="page">Reviews</a>
+    </nav>
+  </div>
+</header>
+
+<div class="awning"></div>
+
+<section class="hero" style="padding:64px 0 44px;">
+  <div class="wrap">
+    <p class="eyebrow">Reviews</p>
+    <h1 style="font-size:clamp(2.2rem,5vw,3.4rem);">What people<br><em>are saying.</em></h1>
+  </div>
+</section>
+
+<div class="scallop scallop-cream" style="background-color:var(--cream)"></div>
+
+<section>
+  <div class="wrap">
+    <div class="review-source-row">
+      <!-- Update these two links to the shop's real Yelp and Google listing pages -->
+      <a class="source-btn" href="https://www.yelp.com/biz/YOUR-SHOP-HERE" target="_blank" rel="noopener">
+        Read us on Yelp &rarr;
+      </a>
+      <a class="source-btn" href="https://www.google.com/search?q=Barbara+Barbara+Southport+CT+reviews" target="_blank" rel="noopener">
+        Read us on Google &rarr;
+      </a>
+    </div>
+
+    <p id="loading-msg" class="loading-row">Loading latest reviews&hellip;</p>
+
+    <div class="review-grid" id="review-grid">
+      <!-- Static sample cards below. See script.js for how to replace these with live data. -->
+      <div class="review-card">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="quote">"[Sample quote &mdash; replace with a real review.] Such a charming little shop, exactly the kind of place you hope to stumble into."</p>
+        <div class="who"><span>Sample Reviewer</span><span>Google</span></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="quote">"[Sample quote &mdash; replace with a real review.] Wonderful selection and even better service. Worth the stop in Southport."</p>
+        <div class="who"><span>Sample Reviewer</span><span>Yelp</span></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="quote">"[Sample quote &mdash; replace with a real review.] A true neighborhood gem, always something new to see."</p>
+        <div class="who"><span>Sample Reviewer</span><span>Google</span></div>
+      </div>
+    </div>
+
+    <p class="review-note">Reviews shown above are placeholders. See the note in <code>script.js</code> for how to connect real Yelp and Google reviews.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="logo" href="index.html">Barbara <span>Barbara</span></a>
+      <p style="margin-top:10px;color:#B7AF9A;font-size:0.9rem;max-width:280px;">A small shop in Southport, Connecticut.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Visit</h4>
+      <p>123 Main Street</p>
+      <p>Southport, CT 06890</p>
+      <p>(203) 555-0148</p>
+    </div>
+    <div class="foot-col">
+      <h4>Find Us Online</h4>
+      <p><a href="reviews.html">Yelp &amp; Google Reviews</a></p>
+      <p><a href="visit.html">Hours &amp; Map</a></p>
+    </div>
+  </div>
+  <div class="wrap fine-print">
+    &copy; <span id="year"></span> Barbara Barbara. Southport, CT.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
