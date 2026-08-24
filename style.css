@@ -256,6 +256,10 @@ p{ margin: 0 0 16px; }
   padding: 28px 24px;
 }
 
+.card-butter{ background: var(--butter); }
+.card-blush{ background: var(--blush); }
+.card-seafoam{ background: var(--seafoam); }
+
 .card .dot{
   width: 34px; height: 34px;
   border-radius: 50%;
@@ -265,6 +269,8 @@ p{ margin: 0 0 16px; }
 .dot-butter{ background: var(--butter); }
 .dot-blush{ background: var(--blush); }
 .dot-seafoam{ background: var(--seafoam); }
+
+
 
 .card p{ color: var(--ink-soft); margin-bottom: 0; font-size: 0.95rem; }
 
