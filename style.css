@@ -414,8 +414,19 @@ footer .foot-col p{ margin: 0 0 6px; color: #D9D3C4; }
   border-top: 1px solid #4a453b;
   font-size: 0.78rem;
   color: #9A927E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
+.fine-print a{
+  color: #B7AF9A;
+}
+.fine-print a:hover{
+  color: var(--cream);
+}
 /* ---------- Responsive ---------- */
 
 @media (max-width: 860px){
