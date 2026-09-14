@@ -8,11 +8,6 @@ document.querySelectorAll('#year').forEach(function (el) {
 /* -----------------------------------------------------------------------
    Pulling in real Yelp / Google reviews
    -----------------------------------------------------------------------
-   The review cards on reviews.html are static placeholders you edit by
-   hand — that's the simplest option, and it's totally fine for a small
-   shop site. If you ever want the reviews to update automatically,
-   here's what that actually involves:
-
    Both Yelp's Fusion API and Google's Places API require a private API
    key, and neither allows those keys to be called directly from a
    plain HTML/JS site (the key would be visible to anyone who views the
