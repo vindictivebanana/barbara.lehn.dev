@@ -1,4 +1,13 @@
-// Barbara Barbara — shared site script
+document.querySelectorAll(".review-toggle").forEach((button) => {
+  button.addEventListener("click", () => {
+    const card = button.closest(".review-card");
+    const expanded = card.classList.toggle("expanded");
+
+    button.setAttribute("aria-expanded", expanded);
+    button.textContent = expanded ? "Show less" : "Read more";
+  });
+});
+
 
 // Fill in the current year in the footer on every page.
 document.querySelectorAll('#year').forEach(function (el) {
