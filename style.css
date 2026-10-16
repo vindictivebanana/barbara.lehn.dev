@@ -346,7 +346,7 @@ p{ margin: 0 0 16px; }
   padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
 }
 
 .review-card .quote{
